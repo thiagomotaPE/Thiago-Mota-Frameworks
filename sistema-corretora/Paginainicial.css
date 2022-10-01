@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(87, 87, 87);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    height: 120px;
+}
+
+nav > a{
+    text-decoration: none;
+    background-color: red;
+    padding: 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+nav > a:hover{
+    background-color: #fff;
+    color: red;
+    transition: 0.5s;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+}
+.descricao{
+    color: #fff;
+    width: 40%;
+}
+.descricao > p{
+    margin-top: 25px;
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.459);
+    
+}
+.descricao > p:hover{
+    background-color: #fff;
+    color: red;
+    transition: 0.5s;
+}
+.redesSociais{
+    display: flex;
+    flex-direction: column;
+}
+.redesSociais > img{
+    margin-bottom: 15px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
+}
+
+footer{
+    text-align: center;
+    margin-top: 150px;
+    color: rgba(255, 255, 255, 0.329);
+}
