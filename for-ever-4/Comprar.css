@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: orange;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    align-items: center;
+    text-align: center;
+}
+table{
+    padding: 20px;
+
+}
+.comprar{
+    width: 100px;
+    height: 25px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    margin-left: 5px;
+}
+.voltar{
+    text-decoration: none;
+    background-color: orange;
+    width: 100px;
+    height: 25px;
+    border: 1px solid orangered;
+
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+    color: white;
+    margin-top: 135px;
+}
